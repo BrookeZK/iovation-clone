@@ -1,0 +1,41 @@
+.content-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-links {
+  background: white;
+  height: 400px;
+}
+
+.copyright {
+  background-color: #333;   
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#terms {
+  margin-left: 40px;
+  font-size: 10px;
+  align-self: center;
+}
+
+#signup {
+  margin-right: 40px;
+  align-self: center;
+}
+
+input#email {
+  width: 60%;
+  height: 25px;
+  margin: 0 auto;
+  border: none;
+  border:solid 1px #ccc;
+  border-radius: 20px;
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+}
