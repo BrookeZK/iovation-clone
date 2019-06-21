@@ -1,27 +1,46 @@
 # IovationClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### _Angular Independent Project 06.14.2019_
 
-## Development server
+#### By _Brooke Kullberg_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+_This is a remake of `www.iovation.com`. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5, AngularFire2 version 4.0.0, and Firebase version 3.9.0._
 
-## Code scaffolding
+_This clone has a handful of the original site's features. There is a navbar that is sticky to the top and changes color upon scroll. On the homepage, there the hero image and welcome text. This is followed by the first spotlight article on Fraud Detection and Prevention, which contains a routerlink to the /fraud-detection-prevention url and webpage._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Finally, there is a footer. The list of links under 'Discover', 'Learn', and 'Connect' are grabbed from a firebase database._
 
-## Build
+_Enjoy!_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Setup/Installation Requirements:
 
-## Running unit tests
+_To download the project:_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* _Open via GitHub repository by going to `https://github.com/BrookeZK/iovation-clone`._
+* _In your command line (Terminal or another program), navigate to your desktop._
+* _In your command line, type "git clone `https://github.com/BrookeZK/iovation-clone` to clone the repository to your desktop._
+* _In your command line, navigate into the new folder "iovation-clone"._
+* _Once inside "iovation-clone," type "npm install," and your node package manager (npm) will install all of the necessary dependencies._
 
-## Running end-to-end tests
+_To run the application:_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* _In your command line, within the "iovation-clone" project folder, type "ng serve," and Angular will compile the files and your web browser will automatically open the Iovation webpage. If it doesn't, navigate to `http://localhost:4200/`._
 
-## Further help
+## Known Bugs
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_There are no known bugs._
+
+## Support and contact details
+
+_Should any problems occur, or any bugs discovered, please contact Brooke at brookekullberg@gmail.com_
+
+## Technologies Used
+
+_This program was written in Typescript, Angular, Bootstrap, JQuery, HTML and CSS._
+
+### License
+
+*This software is licensed under MIT license.*
+
+Copyright (c) 2019 **_Brooke Kullberg_**
