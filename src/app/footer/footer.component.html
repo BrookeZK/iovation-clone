@@ -4,14 +4,15 @@
     <div id="about-blurb"> 
       <p>iovation, a TransUnion Company, was founded with a simple guiding mission: to make the Internet a safer place for people to conduct business.</p>
     </div>
-    <div id="discover">
-      
-    </div>
-    <div id="learn">
-
-    </div>
-    <div id="connect">
-
+    <div>
+      <div *ngFor="let link of links | async">
+        <div class="link-column">
+          <h3>{{link.title}}</strong></h3>
+          <ul>
+            <li *ngFor="let item of link.options">{{item}}</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
   <div class="copyright">
