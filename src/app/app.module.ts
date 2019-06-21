@@ -17,6 +17,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { ThirdArticleComponent } from './third-article/third-article.component';
 import { FourthArticleComponent } from './fourth-article/fourth-article.component';
+import { NextStepComponent } from './next-step/next-step.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -37,6 +38,7 @@ export const firebaseConfig = {
     FooterComponent,
     ThirdArticleComponent,
     FourthArticleComponent,
+    NextStepComponent,
   ],
   imports: [
     BrowserModule,
