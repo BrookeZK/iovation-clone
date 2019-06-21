@@ -1,15 +1,15 @@
 # IovationClone
 
-#### _Angular Independent Project 06.14.2019_
+#### _Angular Independent Project 06.14.2019 and 06.21.2019_
 
 #### By _Brooke Kullberg_
 
 ## Description
 _This is a remake of `www.iovation.com`. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5, AngularFire2 version 4.0.0, and Firebase version 3.9.0._
 
-_This clone has a handful of the original site's features. There is a navbar that is sticky to the top and changes color upon scroll. On the homepage, there the hero image and welcome text. This is followed by the first spotlight article on Fraud Detection and Prevention, which contains a routerlink to the /fraud-detection-prevention url and webpage._
+_This clone has a handful of the original site's features. There is a navbar that is sticky to the top and changes color upon scroll. On the homepage, there the hero image and welcome text. This is followed by the three spotlight articles on Fraud Detection and Prevention, Authentication, and Regulations & Compliance. The button 'Stop Fraud Cold' in the first spotlight on fraud contains a routerlink to the /fraud-detection-prevention url and webpage._
 
-_Finally, there is a footer. The list of links under 'Discover', 'Learn', and 'Connect' are grabbed from a firebase database._
+_All webpages have a 'next-step' section and a footer. The list of links under 'Discover', 'Learn', and 'Connect' are grabbed from a firebase database._
 
 _Enjoy!_
 
