@@ -1,0 +1,45 @@
+.main-content {
+  background-color: #0086ca;
+  background-size: cover;
+  height: 105vh;
+  display: flex;
+}
+
+.text { 
+  margin-left: 60px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  margin-top: 150px;
+  /* align-self: center; */
+}
+
+.text h6 {
+  line-height: 0.95;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.text h5 {
+  font-size: 3rem;
+  line-height: 0.95;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.text p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.media { 
+  margin-right: 60px;
+  align-self: flex-end;
+  /* transform: translateY(5px); */
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
