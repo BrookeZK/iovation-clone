@@ -15,7 +15,8 @@ import { SecondArticleComponent } from './second-article/second-article.componen
 import { FraudDetectionPreventionComponent } from './fraud-detection-prevention/fraud-detection-prevention.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
-import { FooterLinksComponent } from './footer-links/footer-links.component';
+import { ThirdArticleComponent } from './third-article/third-article.component';
+import { FourthArticleComponent } from './fourth-article/fourth-article.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -34,7 +35,8 @@ export const firebaseConfig = {
     FraudDetectionPreventionComponent,
     HomepageComponent,
     FooterComponent,
-    FooterLinksComponent
+    ThirdArticleComponent,
+    FourthArticleComponent,
   ],
   imports: [
     BrowserModule,
