@@ -1,0 +1,29 @@
+{ "footer-links": [{
+    "title": "Discover",
+    "options": [
+      "Products",
+      "Solutions",
+      "Industries",
+      "Customers",
+      "Awards"
+    ]},
+    {
+    "title": "Learn",
+    "options": [
+      "Blog",
+      "Resources",
+      "Topics",
+      "iovation Community",
+      "Customer Support"
+    ]},
+    {
+    "title": "Connect",
+    "options": [
+      "News & Events",
+      "Partners",
+      "Company",
+      "Careers",
+      "Contact"
+    ]}
+  ]
+}  
