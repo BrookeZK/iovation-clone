@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -10,6 +11,8 @@ import { FirstArticleComponent } from './first-article/first-article.component';
 import { SecondArticleComponent } from './second-article/second-article.component';
 import { ThirdArticleComponent } from './third-article/third-article.component';
 import { FourthArticleComponent } from './fourth-article/fourth-article.component';
+import { FraudDetectionPreventionComponent } from './fraud-detection-prevention/fraud-detection-prevention.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -20,12 +23,15 @@ import { FourthArticleComponent } from './fourth-article/fourth-article.componen
     FirstArticleComponent,
     SecondArticleComponent,
     ThirdArticleComponent,
-    FourthArticleComponent
+    FourthArticleComponent,
+    FraudDetectionPreventionComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
