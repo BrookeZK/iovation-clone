@@ -7,7 +7,7 @@
     <div>
       <div *ngFor="let link of links | async">
         <div class="link-column">
-          <h3>{{link.title}}</strong></h3>
+          <h3><strong>{{link.title}}</strong></h3>
           <ul>
             <li *ngFor="let item of link.options">{{item}}</li>
           </ul>
