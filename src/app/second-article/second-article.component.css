@@ -10,7 +10,6 @@
 }
 
 .media {
-  /* height: 300px; */
   align-self: flex-end;
   width: 50%;
 }
@@ -58,7 +57,6 @@
 }
 
 .default1:hover{
-  /* color:white; */
   background-color: #002256;
   text-decoration: none;
   border: 2px solid #04b8a6;
