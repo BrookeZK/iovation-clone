@@ -1,0 +1,42 @@
+ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  width: 100vw;
+  height: 75px;
+  z-index: 10;
+  -moz-transition: .2s linear;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+li {
+  display: inline;
+  z-index: 10;
+}
+
+#logo {
+  float: left;
+  margin-top: 14px;
+  margin-left: 44px;
+  z-index: 10;
+  -moz-transition: .1s linear;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+#menu {
+  float: right;
+  margin-top: 20px;
+  margin-right: 52px;
+  z-index: 10;
+  -moz-transition: .1s linear;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+.white {
+  background-color: white;
+}
