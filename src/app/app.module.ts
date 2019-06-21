@@ -11,6 +11,8 @@ import { FirstArticleComponent } from './first-article/first-article.component';
 import { SecondArticleComponent } from './second-article/second-article.component';
 import { FraudDetectionPreventionComponent } from './fraud-detection-prevention/fraud-detection-prevention.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { FooterComponent } from './footer/footer.component';
+import { FooterLinksComponent } from './footer-links/footer-links.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { HomepageComponent } from './homepage/homepage.component';
     FirstArticleComponent,
     SecondArticleComponent,
     FraudDetectionPreventionComponent,
-    HomepageComponent
+    HomepageComponent,
+    FooterComponent,
+    FooterLinksComponent
   ],
   imports: [
     BrowserModule,
