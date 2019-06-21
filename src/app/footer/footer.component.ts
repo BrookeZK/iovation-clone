@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FooterLinksService } from '../footer-links.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-footer',
@@ -8,12 +9,12 @@ import { FooterLinksService } from '../footer-links.service';
   providers: [FooterLinksService]
 })
 export class FooterComponent implements OnInit {
-  // links: []
+  links: FirebaseListObservable<any[]>;
 
   constructor(private footerLinkService: FooterLinksService) { }
 
   ngOnInit() {
-    // this.links = this.footerLinkService.getLinks();
+    this.links = this.footerLinkService.getLinks();
   }
 
 }
