@@ -3,11 +3,12 @@
   <div  class="footer-links">
     <div id="about-blurb"> 
       <p>iovation, a TransUnion Company, was founded with a simple guiding mission: to make the Internet a safer place for people to conduct business.</p>
+      <img src="../../assets/social-media-icons.png" alt="social media links">
     </div>
-    <div>
+    <div id="link-column">
       <div *ngFor="let link of links | async">
-        <div class="link-column">
-          <h3><strong>{{link.title}}</strong></h3>
+        <div class="link-item">
+          <h6><strong>{{link.title}}</strong></h6>
           <ul>
             <li *ngFor="let item of link.options">{{item}}</li>
           </ul>
