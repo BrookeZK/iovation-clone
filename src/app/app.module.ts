@@ -9,8 +9,6 @@ import { NavComponent } from './nav/nav.component';
 import { HomePageArticlesComponent } from './home-page-articles/home-page-articles.component';
 import { FirstArticleComponent } from './first-article/first-article.component';
 import { SecondArticleComponent } from './second-article/second-article.component';
-import { ThirdArticleComponent } from './third-article/third-article.component';
-import { FourthArticleComponent } from './fourth-article/fourth-article.component';
 import { FraudDetectionPreventionComponent } from './fraud-detection-prevention/fraud-detection-prevention.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
@@ -22,8 +20,6 @@ import { HomepageComponent } from './homepage/homepage.component';
     HomePageArticlesComponent,
     FirstArticleComponent,
     SecondArticleComponent,
-    ThirdArticleComponent,
-    FourthArticleComponent,
     FraudDetectionPreventionComponent,
     HomepageComponent
   ],
