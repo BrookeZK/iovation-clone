@@ -28,7 +28,7 @@
 .media { 
   margin-right: 60px;
   align-self: flex-end;
-  transform: translateY(5px);
+  /* transform: translateY(5px); */
   width: 50%;
 }
 
@@ -63,4 +63,5 @@ img {
   color:#fff;
   background-color:#04b8a6;
   border: 2px solid white;
+  text-decoration: none;
 }
