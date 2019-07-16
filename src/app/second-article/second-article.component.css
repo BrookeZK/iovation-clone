@@ -1,7 +1,9 @@
 .main-content {
-  height: 120vh;
+  height: 65vh;
   display: flex;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
   background-color: #002256;
 }
 
@@ -11,7 +13,7 @@
 
 .media {
   align-self: flex-end;
-  width: 50%;
+  width: 600px;
 }
 
 .text {

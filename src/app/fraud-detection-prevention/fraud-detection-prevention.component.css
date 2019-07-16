@@ -1,8 +1,10 @@
 .main-content {
   background-color: #0086ca;
   background-size: cover;
-  height: 105vh;
+  height: 85vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text { 
@@ -34,7 +36,7 @@
 .media { 
   margin-right: 60px;
   align-self: flex-end;
-  width: 50%;
+  width: 600px;
 }
 
 img {

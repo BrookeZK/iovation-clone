@@ -1,7 +1,9 @@
 .main-content {
   background-color: #04b8a6;
   background-size: cover;
-  height: 115vh;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
@@ -27,7 +29,7 @@
 .media { 
   margin-right: 60px;
   align-self: flex-end;
-  width: 50%;
+  width: 600px;
 }
 
 img {
